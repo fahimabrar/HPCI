@@ -4,4 +4,4 @@ destination = LOAD '/destination.txt' USING PigStorage(',') as (code_1:chararray
 
 result = JOIN destination BY code_1, airport BY code;
 
-STORE result INTO 'output';
+STORE result INTO 'output' USING PigStorage(',');
