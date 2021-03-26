@@ -4,5 +4,4 @@ source = LOAD '/source.txt' USING PigStorage(',') as (code_1:chararray, date:cha
 
 result = JOIN source BY code_1, airport BY code;
 
-STORE result INTO 'output';
-
+STORE result INTO 'output' USING PigStorage(',');
