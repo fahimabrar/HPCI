@@ -1,9 +1,15 @@
 ## High Performance Computational Infrastructure
 
 
-### Due to size >25 MB all dataset could not be uploaded on github. The datasets can be found at,
+### Requirements
+- Python3
+- Dask
+- Hadoop
+- Pig
+- Pandas
+- Numpy
+- Tablau
 
- - https://drive.google.com/drive/folders/1f3Ui6UIpP8Tu4liml1QM08NPhuc1nbcb?usp=sharing
 
 
 ### Main dataset is collected from [The OPENSKY Network 2020](https://zenodo.org/record/4485741) dataset, secondatary dataset from [Open Flights](https://openflights.org/data.html)
@@ -26,3 +32,8 @@
 ### Covid Infection vs Number of flights
 ![covair](https://user-images.githubusercontent.com/32392691/115795440-d7d7de00-a3c7-11eb-89fb-401d99674de1.JPG)
 
+
+
+### Due to size >25 MB all dataset could not be uploaded on github. The datasets can be found at,
+
+ - https://drive.google.com/drive/folders/1f3Ui6UIpP8Tu4liml1QM08NPhuc1nbcb?usp=sharing
