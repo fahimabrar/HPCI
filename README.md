@@ -4,7 +4,7 @@
 ### Requirements
 - Python3
 - Dask
-- Hadoop
+- Hadoop Streaming API
 - Pig
 - Pandas
 - Numpy
